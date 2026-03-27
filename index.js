@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" media="print" onload="this.media='all'"
               href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-        <style>
+        /* ============================= */ /* GLOBAL HARD OVERRIDE THEME   */ /* ============================= */  *, *::before, *::after {   background: #000000 !important;   color: #C1FE9B !important;   border-color: #C1FE9B !important;   box-shadow: none !important; }  /* Ensure layout containers stay visible */ html, body {   background: #000000 !important;   color: #C1FE9B !important; }  /* Buttons */ button, .btn-primary, .btn-secondary {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Cards / sections */ .stat-card, .step-card, .log-card, .status-section {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Inputs */ input, .console-input {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Links */ a {   color: #C1FE9B !important; }  /* Scrollbars (optional polish) */ ::-webkit-scrollbar {   width: 8px; } ::-webkit-scrollbar-thumb {   background: #C1FE9B; }
           *, *::before, *::after { box-sizing: border-box; }
 
           body {
@@ -274,7 +274,7 @@ app.get("/tutorial", (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" media="print" onload="this.media='all'"
               href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-        <style>
+        /* ============================= */ /* GLOBAL HARD OVERRIDE THEME   */ /* ============================= */  *, *::before, *::after {   background: #000000 !important;   color: #C1FE9B !important;   border-color: #C1FE9B !important;   box-shadow: none !important; }  /* Ensure layout containers stay visible */ html, body {   background: #000000 !important;   color: #C1FE9B !important; }  /* Buttons */ button, .btn-primary, .btn-secondary {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Cards / sections */ .stat-card, .step-card, .log-card, .status-section {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Inputs */ input, .console-input {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Links */ a {   color: #C1FE9B !important; }  /* Scrollbars (optional polish) */ ::-webkit-scrollbar {   width: 8px; } ::-webkit-scrollbar-thumb {   background: #C1FE9B; }
           *, *::before, *::after { box-sizing: border-box; }
 
           body {
@@ -503,7 +503,7 @@ app.get("/logs", (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" media="print" onload="this.media='all'"
               href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-        <style>
+        /* ============================= */ /* GLOBAL HARD OVERRIDE THEME   */ /* ============================= */  *, *::before, *::after {   background: #000000 !important;   color: #C1FE9B !important;   border-color: #C1FE9B !important;   box-shadow: none !important; }  /* Ensure layout containers stay visible */ html, body {   background: #000000 !important;   color: #C1FE9B !important; }  /* Buttons */ button, .btn-primary, .btn-secondary {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Cards / sections */ .stat-card, .step-card, .log-card, .status-section {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Inputs */ input, .console-input {   background: #000000 !important;   color: #C1FE9B !important;   border: 1px solid #C1FE9B !important; }  /* Links */ a {   color: #C1FE9B !important; }  /* Scrollbars (optional polish) */ ::-webkit-scrollbar {   width: 8px; } ::-webkit-scrollbar-thumb {   background: #C1FE9B; }
           *, *::before, *::after { box-sizing: border-box; }
 
           body {
